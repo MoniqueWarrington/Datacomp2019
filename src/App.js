@@ -14,13 +14,12 @@ function App() {
       <Header />
       <Container className="Cards Container">
         <Row>
-          <Col xs={6}>
+          <Col sm={8}>
             <Cards />
           </Col>
-          <Col>
+          <Col sm={4}>
             <AboutUs />
           </Col>
-
         </Row>
       </Container>
     </div>

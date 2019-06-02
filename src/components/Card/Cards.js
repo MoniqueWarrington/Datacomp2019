@@ -4,6 +4,9 @@ import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck'
 import MoniqueCardImg from '../../static/img/MoniqueCardImg.jpg';
 import AidanCard from '../../static/img/AidanCard.jpg';
+import ListGroup from 'react-bootstrap/ListGroup';
+//import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
+import ButtonGroup from 'react-bootstrap/ButtonGroup';
 
 function Cards() {
   return (
@@ -12,22 +15,35 @@ function Cards() {
         <Card.Img variant="top" src={MoniqueCardImg} />
         <Card.Body>
           <Card.Title>Monique Warrington</Card.Title>
-          <Card.Text>
-            Some really cool information about me!!
-          </Card.Text>
-          <Button variant="primary" href="https://www.linkedin.com/in/monique-warrington/">LinkedIn</Button>
-          <Button variant="primary" href="https://github.com/MoniqueWarrington">GitHub</Button>
+          <ListGroup variant="flush">
+            <ListGroup.Item>Second Year Software Development Student</ListGroup.Item>
+            <ListGroup.Item>Charity and Event Coordinator at ImpactNPO since October 2018</ListGroup.Item>
+            <ListGroup.Item>Completed an eight month internship at Playtech</ListGroup.Item>
+            <ListGroup.Item>Really likes dogs</ListGroup.Item>
+            <ListGroup.Item>
+              <ButtonGroup>
+                <Button variant="outline-dark" href="https://www.linkedin.com/in/monique-warrington/">LinkedIn</Button>
+                <Button variant="outline-dark" href="https://github.com/MoniqueWarrington">GitHub</Button>
+              </ButtonGroup>
+            </ListGroup.Item>
+          </ListGroup>
         </Card.Body>
       </Card>
       <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src={AidanCard} />
         <Card.Body>
           <Card.Title>Aidan Harris</Card.Title>
-          <Card.Text>
-            Some really cool information about Aidan!!
-          </Card.Text>
-          <Button variant="primary" href="https://www.linkedin.com/in/aidanharris/">LinkedIn</Button>
-          <Button variant="primary" href="https://github.com/AidanTheDeveloper">GitHub</Button>
+          <ListGroup variant="flush">
+            <ListGroup.Item>One and a half years experience as a Software Developer</ListGroup.Item>
+            <ListGroup.Item>Bachelor of Information Sciences with a major in Computer Science</ListGroup.Item>
+            <ListGroup.Item>Also really likes dogs</ListGroup.Item>
+            <ListGroup.Item>
+              <ButtonGroup>
+                <Button variant="outline-dark" href="https://www.linkedin.com/in/aidanharris/">LinkedIn</Button>
+                <Button variant="outline-dark" href="https://github.com/AidanTheDeveloper">GitHub</Button>
+              </ButtonGroup>
+            </ListGroup.Item>
+          </ListGroup>
         </Card.Body>
       </Card>
     </CardDeck>
