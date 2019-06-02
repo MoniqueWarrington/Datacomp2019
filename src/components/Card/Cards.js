@@ -1,13 +1,13 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup'
+import CardDeck from 'react-bootstrap/CardDeck'
 import MoniqueCardImg from '../../static/img/MoniqueCardImg.jpg';
 import AidanCard from '../../static/img/AidanCard.jpg';
 
 function Cards() {
   return (
-    <CardGroup>
+    <CardDeck>
       <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src={MoniqueCardImg} />
         <Card.Body>
@@ -30,7 +30,7 @@ function Cards() {
           <Button variant="primary" href="https://github.com/AidanTheDeveloper">GitHub</Button>
         </Card.Body>
       </Card>
-    </CardGroup>
+    </CardDeck>
   );
 }
 export default Cards
