@@ -6,6 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import 'bootstrap/dist/css/bootstrap.css'
+import AboutUs from './components/AboutUs/AboutUs';
 
 function App() {
   return (
@@ -13,11 +14,13 @@ function App() {
       <Header />
       <Container className="Cards Container">
         <Row>
-          <Col></Col>
           <Col xs={6}>
             <Cards />
           </Col>
-          <Col></Col>
+          <Col>
+            <AboutUs />
+          </Col>
+
         </Row>
       </Container>
     </div>
