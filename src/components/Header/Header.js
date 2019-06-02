@@ -21,7 +21,7 @@ class Header extends React.Component {
         this.setState({fadeSubtitleIn: true})
     }
     fadeInStyle = {
-        'transition-duration' : '.5s'
+        'transitionDuration' : '.75s'
     }
     render() {
         return (
