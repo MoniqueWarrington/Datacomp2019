@@ -4,6 +4,8 @@ import Header from './components/Header/Header'
 import './App.css';
 import Cards from './components/Card/Cards';
 
+import MoniqueCard from './components/Card/moniquecard';
+import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
   return (
