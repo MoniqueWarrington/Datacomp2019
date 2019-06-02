@@ -7,6 +7,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import 'bootstrap/dist/css/bootstrap.css'
 import AboutUs from './components/AboutUs/AboutUs';
+import OurMission from './components/OurMission/OurMission';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           </Col>
           <Col sm={4}>
             <AboutUs />
+            <OurMission />
           </Col>
         </Row>
       </Container>

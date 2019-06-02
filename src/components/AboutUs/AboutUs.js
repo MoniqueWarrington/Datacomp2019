@@ -5,10 +5,10 @@ function AboutUs() {
   return (
     <Jumbotron>
       <h1>
-        Our Mission
+        About Us
       </h1>
       <p>
-        To use our technical skills to give back to the community.
+        Since the day Monique started studying Software Development we have been working on projects together. It has helped us both further our skills, provided us with a passion, and brought us closer together.
       </p>
     </Jumbotron>
   );
