@@ -30,9 +30,9 @@ class VoluntarilyEvent extends React.Component {
             Voluntarily Hackathon
         </h1>
           <p>
-            We attended the Voluntarily Hackathon on the 25th - 26th May, to help contribute towards the Voluntarily Platform.
+            We attended the Voluntarily Hackathon on the 25th - 26th May, to help contribute towards the Voluntarily Platform. Using the MERN stack, we started building an Image uploader that will be used in three locations in the platform. This proved to be a more complex task than originally planned, so we have continued to work on it post event, to complete it to a high standard.
         </p>
-          <Button variant="outline-dark" href="">Find out more!</Button>
+          <Button variant="outline-dark" href="https://www.youtube.com/watch?v=9dj0b898B8Y&feature=youtu.be">Find out more!</Button>
         </Media.Body>
       </Media >
     );

@@ -9,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import AboutUs from './components/AboutUs/AboutUs';
 import OurMission from './components/OurMission/OurMission';
 import VoluntarilyEvent from './components/PastEvents/mediaEvent/VoluntarilyEvent';
+import ImpactNPOAprilEvent from './components/PastEvents/mediaEvent/ImpactNPOAprilEvent';
 
 function App() {
   return (
@@ -25,8 +26,8 @@ function App() {
           </Col>
         </Row>
         <VoluntarilyEvent />
+        <ImpactNPOAprilEvent />
       </Container>
-
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import Media from 'react-bootstrap/Media';
-//import VoluntarilyLogo from '../../../static/img/voluntarilyLogo.svg';
+import ImpactNPOLogo from '../../../static/img/ImpactNPOLogo.jpg';
 import Button from 'react-bootstrap/Button';
 
 class ImpactNPOAprilEvent extends React.Component {
@@ -22,20 +22,20 @@ class ImpactNPOAprilEvent extends React.Component {
           width={128}
           height={128}
           className="ImpactNPOLogo"
-          src={VoluntarilyLogo}
-          alt="Voluntarily Logo"
+          src={ImpactNPOLogo}
+          alt="ImpactNPO Logo"
         />
         <Media.Body>
           <h1>
-            Voluntarily Hackathon
+            ImpactNPO Hackathon
         </h1>
           <p>
-            We attended the Voluntarily Hackathon on the 25th - 26th May, to help contribute towards the Voluntarily Platform.
+            In April 2019 we attended the ImpactNPO Hackathon. Working alongside the chairman of New Zealand Traditional Boatbuilding School and 3 other incredible volunteers, we completely re-built NZTBS's website! In addition to a brand new theme, we added Eventbrite ticket intergration, Donorbox, Google Maps intergration and an About Us page!
         </p>
-          <Button variant="outline-dark" href="">Find out more!</Button>
+          <Button variant="outline-dark" href="http://www.nztbs.org.nz/news/awesome-weekend-with-impactnpo/">NZTBS's Blog Post!</Button>
         </Media.Body>
       </Media >
     );
   }
 }
-export default VoluntarilyEvent;
+export default ImpactNPOAprilEvent;
