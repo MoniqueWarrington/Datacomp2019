@@ -27,12 +27,12 @@ class Header extends React.Component {
         return (
             <Jumbotron>
                 <Fade in={this.state.fadeTitleIn} style={this.fadeInStyle} onEntered={this.onTitleFadeIn}>
-                    <h1>Monique Warrington & Aidan Harris</h1>
+                    <h1><strong>Monique Warrington & Aidan Harris</strong></h1>
                 </Fade>
                 <Fade in={this.state.fadeSubtitleIn} style={this.fadeInStyle} >
-                    <div id="example-fade-text">
-                        Two Software Developers trying to make a difference!
-                </div>
+                    <div id="example-fade-text"><h5>Two Software Developers trying to make a difference!</h5>
+
+                    </div>
                 </Fade>
             </Jumbotron>
         )

@@ -26,8 +26,7 @@ class ImpactNPOAprilEvent extends React.Component {
           alt="ImpactNPO Logo"
         />
         <Media.Body>
-          <h1>
-            ImpactNPO Hackathon
+          <h1><strong>ImpactNPO Hackathon</strong>
           </h1>
           <h5>
             12/04/2019 - 12/04/2019

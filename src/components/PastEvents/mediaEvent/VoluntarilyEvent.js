@@ -25,8 +25,7 @@ class VoluntarilyEvent extends React.Component {
           alt="Voluntarily Logo"
         />
         <Media.Body>
-          <h1>
-            Voluntarily Hackathon
+          <h1><strong>Voluntarily Hackathon</strong>
           </h1>
           <h5>
             25/05/2019 - 26/05/2019

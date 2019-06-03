@@ -10,11 +10,11 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup';
 
 function Cards() {
   return (
-    <CardDeck style={{height: '100%'}}>
+    <CardDeck style={{ height: '100%' }}>
       <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src={MoniqueCardImg} />
         <Card.Body>
-          <Card.Title>Monique Warrington</Card.Title>
+          <Card.Title><strong>Monique Warrington</strong></Card.Title>
           <ListGroup variant="flush">
             <ListGroup.Item>Second Year Software Development Student</ListGroup.Item>
             <ListGroup.Item>Charity and Event Coordinator at ImpactNPO since October 2018</ListGroup.Item>
@@ -32,7 +32,7 @@ function Cards() {
       <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src={AidanCard} />
         <Card.Body>
-          <Card.Title>Aidan Harris</Card.Title>
+          <Card.Title><strong>Aidan Harris</strong></Card.Title>
           <ListGroup variant="flush">
             <ListGroup.Item>One and a half years experience as a Software Developer</ListGroup.Item>
             <ListGroup.Item>Bachelor of Information Sciences with a major in Computer Science</ListGroup.Item>

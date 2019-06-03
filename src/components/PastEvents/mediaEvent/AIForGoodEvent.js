@@ -27,7 +27,7 @@ class AIForGoodEvent extends React.Component {
         />
         <Media.Body>
           <h1>
-            Microsoft Azure AI For Good Hackathon
+            <strong>Microsoft Azure AI For Good Hackathon</strong>
           </h1>
           <h5>
             06/04/2019 - 07/04/2019
