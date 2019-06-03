@@ -13,6 +13,7 @@ import ImpactNPOAprilEvent from './components/PastEvents/mediaEvent/ImpactNPOApr
 import AIForGoodEvent from './components/PastEvents/mediaEvent/AIForGoodEvent';
 
 import Footer from './components/Footer/Footer'
+import PastEventsJumbotron from './components/PastEventsJumbotron/PastEventsJumbotron';
 function App() {
   return (
     <div className="App">
@@ -27,6 +28,7 @@ function App() {
             <OurMission />
           </Col>
         </Row>
+        <PastEventsJumbotron />
         <Row style={{ paddingBottom: '2rem' }}>
           <VoluntarilyEvent />
         </Row>
