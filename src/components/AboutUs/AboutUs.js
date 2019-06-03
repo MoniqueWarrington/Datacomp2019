@@ -8,7 +8,7 @@ function AboutUs() {
         About Us
       </h1>
       <p>
-        Since the day Monique started studying Software Development we have been working on projects together. It has helped us both further our skills, provided us with a passion, and brought us closer together.
+        We have been in a relationship for two years and have been writing programs together for half of that time. Our lives both revolve around software development, and we are always looking for the next opportunity to use our skills. Whether it be helping out non-profit organisations at hackathons, or attending events to learn more about new technologies we are always looking to get ourselves involved in the IT community.
       </p>
     </Jumbotron>
   );

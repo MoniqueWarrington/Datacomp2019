@@ -8,6 +8,7 @@ import Row from 'react-bootstrap/Row';
 import 'bootstrap/dist/css/bootstrap.css'
 import AboutUs from './components/AboutUs/AboutUs';
 import OurMission from './components/OurMission/OurMission';
+import VoluntarilyEvent from './components/PastEvents/mediaEvent/VoluntarilyEvent';
 
 function App() {
   return (
@@ -23,7 +24,9 @@ function App() {
             <OurMission />
           </Col>
         </Row>
+        <VoluntarilyEvent />
       </Container>
+
     </div>
   );
 }

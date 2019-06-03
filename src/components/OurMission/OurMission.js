@@ -5,10 +5,10 @@ function OurMission() {
   return (
     <Jumbotron>
       <h1>
-        Our Mission
+        Our Goal
       </h1>
       <p>
-        Nothing feels more rewarding than participating in a hackathon. We are very passionate about using our knowledge and skills to give back to the community and hackathons provide an amazing opportunity to do so. The people you meet, the things you learn, and the ability to create a solution in 48 hours are all incredible.
+        There are many amazing people with brilliant ideas which can be brought to life using technology. Our goal is to help bring these ideas to life. We are always looking for opportunities to help others using technology and challenging ourselves so that we can improve our skills. Hackathons are the perfect way for us to pursue our goals.
       </p>
     </Jumbotron>
   );
