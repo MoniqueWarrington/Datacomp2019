@@ -10,7 +10,7 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup';
 
 function Cards() {
   return (
-    <CardDeck>
+    <CardDeck style={{height: '100%'}}>
       <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src={MoniqueCardImg} />
         <Card.Body>
