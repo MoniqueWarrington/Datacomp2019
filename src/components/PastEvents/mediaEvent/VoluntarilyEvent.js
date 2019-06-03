@@ -21,7 +21,7 @@ class VoluntarilyEvent extends React.Component {
         <img
           width={128}
           height={128}
-          className="VoluntarilyImage"
+          className="align-self-center mr-3"
           src={VoluntarilyLogo}
           alt="Voluntarily Logo"
         />

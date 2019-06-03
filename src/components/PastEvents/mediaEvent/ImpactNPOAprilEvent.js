@@ -21,7 +21,7 @@ class ImpactNPOAprilEvent extends React.Component {
         <img
           width={128}
           height={128}
-          className="ImpactNPOLogo"
+          className="align-self-center mr-3"
           src={ImpactNPOLogo}
           alt="ImpactNPO Logo"
         />

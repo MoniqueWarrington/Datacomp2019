@@ -21,7 +21,7 @@ class AIForGoodEvent extends React.Component {
         <img
           width={128}
           height={128}
-          className="WAInotTeam"
+          className="align-self-center mr-3"
           src={WAInotTeam}
           alt="WAInotTeam"
         />
