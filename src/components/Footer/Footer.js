@@ -23,22 +23,22 @@ class Footer extends React.Component {
                     `}
                 </style>
 
-                <Jumbotron style={{marginBottom: '0rem', marginTop: '2rem'}}>
+                <Jumbotron style={{ marginBottom: '0rem', marginTop: '2rem' }}>
                     <Container>
                         <Row>
                             <Col>
-                                <ContactDetails 
-                                    name="Aidan Harris" 
-                                    email="aidanharris1001@gmail.com" 
-                                    linkedIn="https://www.linkedin.com/in/aidanharris/"
-                                    gitHub="https://github.com/AidanTheDeveloper"/>
-                            </Col>
-                            <Col>
-                            <ContactDetails 
-                                    name="Monique Warrington" 
+                                <ContactDetails
+                                    name="Monique Warrington"
                                     email="niquewarrington@gmail.com"
                                     linkedIn="https://www.linkedin.com/in/monique-warrington/"
                                     gitHub="https://github.com/MoniqueWarrington" />
+                            </Col>
+                            <Col>
+                                <ContactDetails
+                                    name="Aidan Harris"
+                                    email="aidanharris1001@gmail.com"
+                                    linkedIn="https://www.linkedin.com/in/aidanharris/"
+                                    gitHub="https://github.com/AidanTheDeveloper" />
                             </Col>
                         </Row>
                     </Container>

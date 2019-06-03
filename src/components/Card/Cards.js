@@ -19,7 +19,7 @@ function Cards() {
             <ListGroup.Item>Second Year Software Development Student</ListGroup.Item>
             <ListGroup.Item>Charity and Event Coordinator at ImpactNPO since October 2018</ListGroup.Item>
             <ListGroup.Item>Completed an eight month internship at Playtech</ListGroup.Item>
-            <ListGroup.Item>Really likes dogs</ListGroup.Item>
+            <ListGroup.Item>Really wants to be a part of DataComp Talent-X 2019</ListGroup.Item>
             <ListGroup.Item>
               <ButtonGroup>
                 <Button variant="outline-dark" href="https://www.linkedin.com/in/monique-warrington/">LinkedIn</Button>
@@ -36,7 +36,7 @@ function Cards() {
           <ListGroup variant="flush">
             <ListGroup.Item>One and a half years experience as a Software Developer</ListGroup.Item>
             <ListGroup.Item>Bachelor of Information Sciences with a major in Computer Science</ListGroup.Item>
-            <ListGroup.Item>Also really likes dogs</ListGroup.Item>
+            <ListGroup.Item>Also really wants to be a part of DataComp Talent-X 2019</ListGroup.Item>
             <ListGroup.Item>
               <ButtonGroup>
                 <Button variant="outline-dark" href="https://www.linkedin.com/in/aidanharris/">LinkedIn</Button>

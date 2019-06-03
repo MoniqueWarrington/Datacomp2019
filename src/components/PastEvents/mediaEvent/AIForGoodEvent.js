@@ -28,9 +28,12 @@ class AIForGoodEvent extends React.Component {
         <Media.Body>
           <h1>
             Microsoft Azure AI For Good Hackathon
-        </h1>
+          </h1>
+          <h5>
+            06/04/2019 - 07/04/2019
+          </h5>
           <p>
-            On April 6th-7th 2019, we attended the Microsoft Azure AI For Good Hackathon! Our team, named WAInot, was focused on using AI to calculate expensive nitrate data, using data collected from cheaper water sensors. During this weekend we gained partnership from Riverwatch NZ and WAI NZ, who both want to continue the idea further with us.
+            Our team, named WAInot, was focused on using AI to calculate expensive nitrate data, using data collected from cheaper water sensors. During this weekend we gained partnership from Riverwatch NZ and WAI NZ, who both want to continue the idea further with us.
           </p>
         </Media.Body>
       </Media >

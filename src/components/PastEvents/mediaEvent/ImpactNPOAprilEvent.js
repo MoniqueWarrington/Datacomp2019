@@ -28,10 +28,13 @@ class ImpactNPOAprilEvent extends React.Component {
         <Media.Body>
           <h1>
             ImpactNPO Hackathon
-        </h1>
+          </h1>
+          <h5>
+            12/04/2019 - 12/04/2019
+          </h5>
           <p>
-            In April 2019 we attended the ImpactNPO Hackathon. Working alongside the chairman of New Zealand Traditional Boatbuilding School and 3 other incredible volunteers, we completely re-built NZTBS's website! In addition to a brand new theme, we added Eventbrite ticket intergration, Donorbox, Google Maps intergration and an About Us page!
-        </p>
+            Working alongside the chairman of New Zealand Traditional Boatbuilding School and 3 other incredible volunteers, we completely re-built NZTBS's website! In addition to a brand new theme, we added Eventbrite ticket intergration, Donorbox, Google Maps intergration and an About Us page!
+          </p>
           <Button variant="outline-dark" href="http://www.nztbs.org.nz/news/awesome-weekend-with-impactnpo/">NZTBS's Blog Post!</Button>
         </Media.Body>
       </Media >

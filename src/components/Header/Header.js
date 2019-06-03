@@ -14,27 +14,27 @@ class Header extends React.Component {
     }
 
     componentDidMount() {
-        this.setState({fadeTitleIn: true})
+        this.setState({ fadeTitleIn: true })
     }
 
     onTitleFadeIn() {
-        this.setState({fadeSubtitleIn: true})
+        this.setState({ fadeSubtitleIn: true })
     }
     fadeInStyle = {
-        'transitionDuration' : '.75s'
+        'transitionDuration': '.75s'
     }
     render() {
         return (
-        <Jumbotron>
-            <Fade in={this.state.fadeTitleIn} style={this.fadeInStyle} onEntered={this.onTitleFadeIn}>
-                <h1>Aidan Harris & Monique Warrington</h1>
-            </Fade>
-            <Fade in={this.state.fadeSubtitleIn} style={this.fadeInStyle} >
-                <div id="example-fade-text">
-                    Two software developers trying to make a difference!
+            <Jumbotron>
+                <Fade in={this.state.fadeTitleIn} style={this.fadeInStyle} onEntered={this.onTitleFadeIn}>
+                    <h1>Monique Warrington & Aidan Harris</h1>
+                </Fade>
+                <Fade in={this.state.fadeSubtitleIn} style={this.fadeInStyle} >
+                    <div id="example-fade-text">
+                        Two Software Developers trying to make a difference!
                 </div>
-            </Fade>
-        </Jumbotron>
+                </Fade>
+            </Jumbotron>
         )
     }
 }

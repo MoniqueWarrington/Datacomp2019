@@ -9,7 +9,7 @@ function PastEventsJumbotron() {
       <Container>
         <h1>Past Events</h1>
         <p>
-          A collection of past hackathons we have attended!
+          Awesome hackathons we have had the privilege of partaking in
         </p>
       </Container>
     </Jumbotron>
