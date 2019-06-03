@@ -10,6 +10,7 @@ import AboutUs from './components/AboutUs/AboutUs';
 import OurMission from './components/OurMission/OurMission';
 import VoluntarilyEvent from './components/PastEvents/mediaEvent/VoluntarilyEvent';
 import ImpactNPOAprilEvent from './components/PastEvents/mediaEvent/ImpactNPOAprilEvent';
+import AIForGoodEvent from './components/PastEvents/mediaEvent/AIForGoodEvent';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         </Row>
         <VoluntarilyEvent />
         <ImpactNPOAprilEvent />
+        <AIForGoodEvent />
       </Container>
     </div>
   );
