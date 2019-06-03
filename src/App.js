@@ -12,6 +12,7 @@ import VoluntarilyEvent from './components/PastEvents/mediaEvent/VoluntarilyEven
 import ImpactNPOAprilEvent from './components/PastEvents/mediaEvent/ImpactNPOAprilEvent';
 import AIForGoodEvent from './components/PastEvents/mediaEvent/AIForGoodEvent';
 
+import Footer from './components/Footer/Footer'
 function App() {
   return (
     <div className="App">
@@ -36,6 +37,7 @@ function App() {
           <AIForGoodEvent />
         </Row>
       </Container>
+      <Footer />
     </div>
   );
 }
