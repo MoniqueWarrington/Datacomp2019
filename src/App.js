@@ -26,9 +26,15 @@ function App() {
             <OurMission />
           </Col>
         </Row>
-        <VoluntarilyEvent />
-        <ImpactNPOAprilEvent />
-        <AIForGoodEvent />
+        <Row style={{ paddingBottom: '2rem' }}>
+          <VoluntarilyEvent />
+        </Row>
+        <Row style={{ paddingBottom: '2rem' }}>
+          <ImpactNPOAprilEvent />
+        </Row>
+        <Row style={{ paddingBottom: '2rem' }}>
+          <AIForGoodEvent />
+        </Row>
       </Container>
     </div>
   );
