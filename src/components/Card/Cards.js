@@ -22,8 +22,8 @@ function Cards() {
             <ListGroup.Item>Really wants to be a part of DataComp Talent-X 2019</ListGroup.Item>
             <ListGroup.Item>
               <ButtonGroup>
-                <Button variant="outline-dark" href="https://www.linkedin.com/in/monique-warrington/">LinkedIn</Button>
-                <Button variant="outline-dark" href="https://github.com/MoniqueWarrington">GitHub</Button>
+                <Button href="https://www.linkedin.com/in/monique-warrington/">LinkedIn</Button>
+                <Button href="https://github.com/MoniqueWarrington">GitHub</Button>
               </ButtonGroup>
             </ListGroup.Item>
           </ListGroup>
@@ -39,8 +39,8 @@ function Cards() {
             <ListGroup.Item>Also really wants to be a part of DataComp Talent-X 2019</ListGroup.Item>
             <ListGroup.Item>
               <ButtonGroup>
-                <Button variant="outline-dark" href="https://www.linkedin.com/in/aidanharris/">LinkedIn</Button>
-                <Button variant="outline-dark" href="https://github.com/AidanTheDeveloper">GitHub</Button>
+                <Button href="https://www.linkedin.com/in/aidanharris/">LinkedIn</Button>
+                <Button href="https://github.com/AidanTheDeveloper">GitHub</Button>
               </ButtonGroup>
             </ListGroup.Item>
           </ListGroup>
