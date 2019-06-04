@@ -14,7 +14,7 @@ function Cards() {
       <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src={MoniqueCardImg} />
         <Card.Body>
-          <Card.Title><h3>Monique Warrington</h3></Card.Title>
+          <Card.Title><h3>Monique</h3><h3>Warrington</h3></Card.Title>
           <ListGroup variant="flush">
             <ListGroup.Item>Second Year Software Development Student</ListGroup.Item>
             <ListGroup.Item>Charity and Event Coordinator at ImpactNPO since October 2018</ListGroup.Item>
@@ -32,9 +32,10 @@ function Cards() {
       <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src={AidanCard} />
         <Card.Body>
-          <Card.Title><h3>Aidan Harris</h3></Card.Title>
+          <Card.Title ><h3>Aidan</h3><h3>Harris</h3></Card.Title>
           <ListGroup variant="flush">
-            <ListGroup.Item>One and a half years experience as a Software Developer</ListGroup.Item>
+            <ListGroup.Item>Seven months experience as a back-end Java Developer</ListGroup.Item>
+            <ListGroup.Item>Eight months experience as a full-stack C# WPF Application Developer</ListGroup.Item>
             <ListGroup.Item>Bachelor of Information Sciences with a major in Computer Science</ListGroup.Item>
             <ListGroup.Item>Also really wants to be a part of DataComp Talent-X 2019</ListGroup.Item>
             <ListGroup.Item>
