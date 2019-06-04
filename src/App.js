@@ -53,7 +53,7 @@ function App() {
             imgAlt="Voluntarily Logo"
             heading="Voluntarily Hackathon"
             dateRange="25/05/2019 - 26/05/2019"
-            description="This event was focused on contributing towards building the Voluntarily Platform. Using the MERN stack, we started creating an Image uploader that will be used in three locations in the platform. This proved to be a more complex task than originally planned, so we have continued to work on it post event, to complete it to a high standard."
+            description="This event was focused on contributing towards building the Voluntarily Platform. Using the MERN stack, we started creating an Image uploader that will be used in three locations in the platform. This proved to be a more complex task than we expected, so we are continuing to work on it so that it may be completed to a high standard."
             buttonLink="https://www.youtube.com/watch?v=9dj0b898B8Y&feature=youtu.be"
             buttonText="Find out more!" />
         </Row>
@@ -73,7 +73,7 @@ function App() {
             imgAlt="Hackathon team picture"
             heading="Microsoft Azure AI For Good Hackathon"
             dateRange="06/04/2019 - 07/04/2019"
-            description="Our team, named WAInot, was focused on using AI to calculate expensive nitrate data, using data collected from cheaper water sensors. During this weekend we gained partnership from Riverwatch NZ and WAI NZ, who both want to continue the idea further with us."
+            description="Our team, named WAInot, was focused on using AI to calculate expensive nitrate data, using data collected from cheaper water sensors. During this weekend we initiated communication with Riverwatch NZ and WAI NZ, who believe that our idea is viable. Communication is still ongoing, although progress has slowed since the event."
             buttonLink="https://www.awaregroup.com/ai-for-good-hackfest/"
             buttonText="Find out more!" />
         </Row>
