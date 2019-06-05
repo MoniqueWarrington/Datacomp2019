@@ -12,7 +12,7 @@ import Footer from './components/Footer/Footer'
 import PastEventsJumbotron from './components/PastEventsJumbotron/PastEventsJumbotron';
 import Information from './components/Information/Information';
 import VoluntarilyLogo from './static/img/voluntarilyLogo.svg';
-import ImpactNPOLogo from './static/img/ImpactNPOLogo.jpg';
+import ImpactNPOLogo from './static/img/ImpactNPOLogo.png';
 import WAInotTeam from './static/img/WAInotTeam.jpeg';
 
 function App() {
